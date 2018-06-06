@@ -1,0 +1,11 @@
+server:
+  port: 7999
+
+dubbo:
+  application: demo-producer
+  registry: zookeeper://192.168.16.28:2181
+  cache: /cache/demo-producer/
+  protocol: 20881
+  time-out: 1200000
+  group: dev
+
